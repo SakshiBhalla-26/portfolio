@@ -6,14 +6,14 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Sakshi Bhalla',
+  role: 'Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Aspiring CSE Graduate . Skilled in front-end and back-end development, with knowledge in HTML, CSS, JavaScript, MySQL, and Java. I have built various projects , showcasing my ability to develop practical solutions. I am eager to enhance my skills and acquire new ones , apply them in a dynamic environment and contribute to innovative projects.',
+  resume: 'https://drive.google.com/file/d/1O54PyVNrrNj-mWSiB-JcpfkqXEoxeJ0b/view?usp=drive_link',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/sakshi-bhalla-463ab8247',
+    github: 'https://github.com/SakshiBhalla-26',
   },
 }
 
@@ -23,26 +23,26 @@ const projects = [
   {
     name: 'Project 1',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A quiz app having questions fetched fro external api. Also feature of saving high scores in local storage',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    sourceCode: 'https://github.com/SakshiBhalla-26/Quiz-App',
+    livePreview: ' https://sakshibhalla-26.github.io/Quiz-App/',
   },
   {
     name: 'Project 2',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A simple To-Do list app with feature to save data in local storage ',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    sourceCode: 'https://github.com/SakshiBhalla-26/todoapp',
+    livePreview: ' https://sakshibhalla-26.github.io/todoapp/',
   },
   {
     name: 'Project 3',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An airline management system which involves scheduling of flights,ticket reservation,flight cancellation and adding assengers',
+    stack: ['Core Java', 'MySQL'],
+    sourceCode: 'https://github.com/SakshiBhalla-26/AirlineManagementSystem',
+    
   },
 ]
 
@@ -52,20 +52,17 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Core JAVA',
+  'MySQL',
+  'ES6',
+  'Git'
+  
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'sakshibhalla518@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
